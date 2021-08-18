@@ -1,0 +1,84 @@
+body{
+    color: black;
+    position: relative;
+}
+/** HEADER **/
+#header-nav {
+    background-color: grey;
+    width:100%;
+    border-radius: 0;
+    border: 0;
+}
+.navbar-brand {
+    padding-top: 50px;
+}
+.navbar-brand h1{
+    color: black;
+    font-weight: bold;
+    margin-top: -30px;
+    margin-bottom: 0;
+    line-height: 0.75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 2px solid black;
+  }
+/** END OF HEADER **/
+.container-fluid h1{
+    font-weight: bold;
+}
+.container-fluid h3{
+    font-weight: bold;
+    text-align: center;
+}
+.container-fluid section{
+    font-weight: bold;
+    background-color: grey;
+    padding: 20px;
+    margin: 10px;
+}
+.backtotop{
+    text-align: center;
+    color:black;
+    font-size: 120%;
+}
+#main-content{
+    margin-top: 70px;
+}
+/**********Desktop Only**********/
+@media (min-width: 992px) {
+    
+}
+/********* Tablet Only**********/
+@media (min-width: 768px) and (max-width: 991px) {
+    
+}
+/**********Mobiles Only**********/
+@media (max-width: 767px) {
+    .container-fluid{
+        width: 80%;
+    }
+    #collapsable-nav{
+        background-color: white;
+    }
+    #nav-list{
+        margin-top: 0;
+        background: white;
+        border: 1px solid black;
+    }
+    #nav-list li{
+        border: 1px solid black;
+    }
+    #nav-list a {
+        color: black;
+        text-align: center;
+    }
+    #nav-list a:hover {
+        background: lightgrey;
+    }
+    #nav-list a span {
+        font-size: 1.8em;
+    }
+}
